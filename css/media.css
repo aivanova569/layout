@@ -1,0 +1,384 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 1100px) {
+	.news__slider-inner{
+		display: block;
+	}
+
+	.news__slider{
+		width: 100%;
+		padding-bottom: 30px;
+	}
+
+	.news__company{
+		width: 80%;
+		padding-bottom: 30px;
+	}
+
+	.footer{
+		display: block;
+	}
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.advice__form img{
+		display: none;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.menu ul{
+		display: none;
+		position: absolute;
+		top: 80px;
+		text-align: center;
+		left: 0;
+		right: 0;
+		z-index: 20;
+	}
+
+	.menu-list li{
+		display: block;
+	}
+
+	.menu-list li:first-child{
+		padding-top: 50px;
+	}
+
+	.menu-list li + li{
+		margin-left: 0;
+		border-top: 1px solid #000;
+	}
+
+	.menu-list a{
+		font-size: 16px;
+		display: block;
+		line-height: 50px;
+		height: 50px;
+		background-color: #ffc222;
+		text-align: center;
+		color: #111;
+		padding: 0;
+		border: none;
+	}
+
+	.btn-menu{
+		display: block;
+	}
+
+	.footer__wrapper{
+		width: 90%
+	}
+
+}
+
+@media only screen and (max-width : 710px) {
+	.phone,
+	.mail,
+	.consultation a{
+		font-size: 12px;
+		letter-spacing: 0px;
+	}
+
+	.services__colum{
+		display: block;
+	}
+
+	.services__colum .colum{
+		width: 90%;
+		margin-bottom: 10px;
+	}
+
+	.col{
+		padding-left: 80px;
+	}
+
+	.col:before,
+	.advice__get:before{
+		content: "";
+		width: 60px;
+	}
+
+	.col__title,
+	.advice__title{
+		font-size: 18px;
+		padding-bottom: 15px;
+	}
+
+	.col__text,
+	.advice__text{
+		letter-spacing: 0px;
+		font-size: 12px;
+	}
+
+	.col-btn a,
+	.news-btn a{
+		font-size: 12px;
+		letter-spacing: 0px;
+		padding: 7px 20px;
+	}
+
+	.about__inner{
+		width: 100%;
+	}
+
+	.advice__form-column textarea{
+		width: 90%;
+	}
+
+	.advice__form-column button{
+		font-size: 12px;
+		letter-spacing: 0px;
+		padding: 10px 20px;
+		margin-right: 45px;
+	}
+
+	.advice__form-column button:after{
+		content: "\f105";
+		font-family: 'icomoon';
+		font-size: 12px;
+	    height: 38px;
+	    left: 180px;
+	}
+
+	.progress__colum{
+		display: block;
+	}
+
+	.progress__colum-3{
+		width: 100%;
+	}
+
+	.progress__text{
+		padding-bottom: 23px;
+	}
+
+	.map iframe{
+		width: 90%;
+	}
+
+
+
+}
+
+@media only screen and (max-width : 600px) {
+	.consultation{
+		display: none;
+	}
+
+	.slider__title{
+		font-size: 25px;
+		letter-spacing: 0px;
+	}
+
+	.slider__text{
+		font-size: 15px;
+	}
+
+}
+
+@media only screen and (max-width : 550px) {
+	.advice__form-column textarea{
+		width: 350px;
+	}
+
+	.copyright__text {
+	    font-size: 8px;
+	    letter-spacing: 0px;
+	}
+
+	.copyright__text:before{
+		content: "\f1f9";
+		font-family: 'icomoon';
+		font-size: 8px;
+	}
+
+	.wrapper__contact span,
+	.wrapper__mail a{
+		padding-top: 18px;
+		font-size: 12px;
+		letter-spacing: 0px;
+	}
+
+	.wrapper__phone:before{
+		content: "\f095";
+		font-family: 'icomoon';
+		font-size: 14px;
+		top: 18px;
+	}
+
+	.wrapper__mail:before{
+		content: "\f003";
+		font-family: 'icomoon';
+		font-size: 14px;
+		top: 18px;
+	}
+
+	.wrapper__map:before{
+		content: "\f041";
+		font-family: 'icomoon';
+		font-size: 14px;
+		top: 18px;
+	}
+
+	.news{
+		padding-bottom: 20px;
+	}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.phone,
+	.mail{
+		font-size: 9px;
+	}
+
+	.consultation:before{
+		font-size: 9px;
+	}
+
+	.slider__title{
+		font-size: 18px;
+	}
+
+	.slider__text{
+		font-size: 12px;
+	}
+
+	.slider__btn button{
+		font-size: 12px;
+		letter-spacing: 0px;
+		padding: 10px 15px;
+	}
+
+	.slider__btn button:after{
+		left: 126px;
+	}
+
+	.col:before,
+	.advice__get:before{
+		content: "";
+		display: none;
+	}
+
+	.col,
+	.advice__get,
+	form{
+		padding-left: 15px;
+	}
+
+	.services__wrapper,
+	.news__wrapper{
+		display: block;
+	}
+
+	.news-btn{
+		padding-top: 10px;
+	}
+
+	.col__text{
+		padding-bottom: 15px;
+	}
+
+	.col-btn{
+		padding-left: 15px;
+	}
+
+	.inner__title{
+		font-size: 18px;
+		padding-bottom: 18px;
+	}
+
+	.inner__text{
+		letter-spacing: 0px;
+		font-size: 12px;
+	}
+
+	.advice__form-column textarea{
+		width: 265px;
+	}
+
+	.news__slider-title{
+		font-size: 15px;
+		letter-spacing: 0px;
+		padding: 40px 20px 30px;
+	}
+
+	.news__slider-text{
+		letter-spacing: 0px;
+		padding-bottom: 20px;
+	}
+
+	.news__slider-about{
+		letter-spacing: 0px;
+		padding-bottom: 30px;
+	}
+
+	.phone:before{
+		content: "\f095";
+		font-family: 'icomoon';
+		font-size: 12px;
+		top: -15px;
+		left: 1px;
+	}
+
+	.mail:before{
+		content: "\f003";
+		font-family: 'icomoon';
+		font-size: 12px;
+		top: -16px;
+		left: 34px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	.news__slider-text,
+	.news__slider-about{
+		font-size: 12px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+	.menu ul{
+		display: block !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
